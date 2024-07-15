@@ -1,0 +1,15 @@
+{
+  "originHash" : "57f5d20bd8150e7cac49afa31b514fc42f2e1cf0a90fea4cda16b8dbf57c103b",
+  "pins" : [
+    {
+      "identity" : "playing-cards",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nashysolutions/playing-cards.git",
+      "state" : {
+        "revision" : "2a8367ce27d8a9b2cbde2f1e1285cca6a4fb1eaf",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
