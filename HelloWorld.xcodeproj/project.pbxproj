@@ -19,6 +19,7 @@
 		50BF5F8E2C45295B006E71FA /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BF5F8D2C45295B006E71FA /* Algorithm.m */; };
 		50BF5F922C452B19006E71FA /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BF5F912C452B19006E71FA /* DestinationViewController.swift */; };
 		5FE2C8738D985F2CC388D8AF /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07342D1C2C45EB531721F2D5 /* Pods_HelloWorld.framework */; };
+		66921A02A298A2AF40658680 /* Pods_HelloWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AA59992C45304D0062AE2B /* Pods_HelloWorldTests.framework */; };
 		DAABD7DE5E493FB825799B5C /* Pods_HelloWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9F3835577DB6BEBD236A4F /* Pods_HelloWorldTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		50BF5F8D2C45295B006E71FA /* Algorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 		50BF5F902C452A14006E71FA /* HelloWorldTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		50BF5F912C452B19006E71FA /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		50FC9F392C453622008FAC47 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FC9F3A2C453622008FAC47 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A376CDEB18562A7257D05B6F /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C854586EB9192D34766217 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1B00B7E75CBBBAB84AFDC99 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAABD7DE5E493FB825799B5C /* Pods_HelloWorldTests.framework in Frameworks */,
+				66921A02A298A2AF40658680 /* Pods_HelloWorldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +173,8 @@
 		8137434027F09DB2EDD168D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50FC9F392C453622008FAC47 /* OCHamcrest.framework */,
+				50FC9F3A2C453622008FAC47 /* SVProgressHUD.framework */,
 				50AA599F2C45306C0062AE2B /* SVProgressHUD.framework */,
 				50AA599B2C45305D0062AE2B /* OCHamcrest.framework */,
 				50AA59992C45304D0062AE2B /* Pods_HelloWorldTests.framework */,
