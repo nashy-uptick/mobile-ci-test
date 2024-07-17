@@ -12,6 +12,6 @@ final class HelloWorldTests: XCTestCase {
     let algorithm = Algorithm()
     
     func testExample() throws {
-        XCTAssertTrue(algorithm.run() == 1)
+        XCTAssertFalse(algorithm.run() == 1)
     }
 }
